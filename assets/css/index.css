@@ -1,0 +1,33 @@
+.title-slide{
+    color: #183153;
+    font-size: 24px;
+    font-weight: 900px;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.text-slide{
+    color: #183153;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo-slide{
+    display: block;
+    align-items: start;
+    width: 400px;
+    padding-bottom: 50px;
+}
+.btn-slide{
+    color: white;
+    font-size: 24px;
+    font-weight: 800px;
+    background-color: #183153;
+    border-radius: 20px;
+    border: none;
+    padding: 2px 50px;
+    margin-bottom: 40px;
+    display: block;
+    align-items: start;
+}
