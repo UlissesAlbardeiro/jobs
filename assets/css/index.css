@@ -31,3 +31,39 @@
     display: block;
     align-items: start;
 }
+
+section{
+    background-image: url("../img/sobre-nos.png");
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.sobre{
+    margin-right: 55%;
+    margin-left: 8rem;
+}
+
+.sobre h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #183153;
+    margin-bottom: 40px;
+}
+
+.sobre p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sobre .btn-sobre{
+    color: white;
+    font-size: 24px;
+    font-weight: 800px;
+    background-color: #183153;
+    border-radius: 20px;
+    border: none;
+    padding: 2px 50px;
+   margin-top: 50px;
+   
+}

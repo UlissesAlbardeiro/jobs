@@ -39,8 +39,10 @@
                         <p class="text-slide">AGORA O SONHO DA CASA <br> PRÓPRIA ESTÁ AO SEU ALCANCE</p>
                         <button class="btn-slide">SAIBA MAIS</button>
                     </div>
+                    
                 </div>
             </div>
+            
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
@@ -51,6 +53,15 @@
             </a>
         </div>
     </div>
+
+    <section>
+        <div class="sobre">
+            <h2>Quem somos</h2>
+            <p>A Engeteg construtora é uma empresa que atua no ramo da construção civil, oferecendo soluções completas e integradas para os seus clientes.<br>A contrutora também se preocupa com o meio ambiente e a responsabilidade social, adotando práticas sistentáveis e apoiando projetos sociais nas comunidades onde atua. A Engeteg construtora é uma empresa que constrói mais do que obras, constrói sonhos</p>
+            <button class="btn-sobre">SAIBA MAIS</button>
+        </div>
+
+    </section>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
