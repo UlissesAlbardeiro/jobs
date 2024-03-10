@@ -71,10 +71,9 @@
             <h2>Quem somos</h2>
             <p>A Engeteg construtora é uma empresa que atua no ramo da construção civil, oferecendo soluções completas e integradas para os seus clientes.<br>A contrutora também se preocupa com o meio ambiente e a responsabilidade social, adotando práticas sistentáveis e apoiando projetos sociais nas comunidades onde atua. A Engeteg construtora é uma empresa que constrói mais do que obras, constrói sonhos</p>
             <p>
-                <button class="btn-sobre">SAIBA MAIS</button>
+               <button href="#" class="btn-sobre">SAIBA MAIS</button>
             </p>
         </div>
-
     </section>
 
 
