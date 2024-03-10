@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -76,6 +78,16 @@ header {
     display: none;
 }
 
+@media screen and (max-width: 1170px){
+    .logo img{
+        width: 200px;
+    }
+
+    .nav-bar{
+        padding: 1.5rem 2rem;
+    }
+} 
+
 @media screen and (max-width: 993px) {
 
     .logo img{
@@ -140,12 +152,12 @@ header {
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 1170px){
     .logo img{
-        width: 200px;
+        width: 250px;
     }
 
     .nav-bar{
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 1.5rem;
     }
 } 

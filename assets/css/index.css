@@ -1,69 +1,156 @@
-.title-slide{
-    color: #183153;
-    font-size: 24px;
-    font-weight: 900px;
-    text-transform: uppercase;
-    text-align: start;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
 }
 
-.text-slide{
-    color: #183153;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.logo-slide{
-    display: block;
-    align-items: start;
-    width: 400px;
-    padding-bottom: 50px;
-}
-.btn-slide{
-    color: white;
-    font-size: 24px;
-    font-weight: 800px;
-    background-color: #183153;
-    border-radius: 20px;
-    border: none;
-    padding: 2px 50px;
-    margin-bottom: 40px;
-    display: block;
-    align-items: start;
+.carousel-mobile{
+    display: none;
 }
 
 section{
     background-image: url("../img/sobre-nos.png");
     background-size: cover;
-    padding-top: 250px;
-    padding-bottom: 250px;
 }
 
 .sobre{
-    margin-right: 55%;
+    margin-right: 50%;
     margin-left: 8rem;
 }
 
 .sobre h2{
-    font-size: 52px;
+    font-size: 60px;
     font-weight: 700;
-    color: #183153;
+    color: rgb(68, 68, 68);
     margin-bottom: 40px;
+    padding-top: 80px;
 }
 
 .sobre p{
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 500;
+    color: rgb(68, 68, 68);;
 }
 
 .sobre .btn-sobre{
     color: white;
-    font-size: 24px;
-    font-weight: 800px;
+    font-size: 40px;
+    font-weight: bolder;
     background-color: #183153;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
-    padding: 2px 50px;
-   margin-top: 50px;
+    padding: 6px 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
+}
+@media(max-width: 1440px){
+
+    .sobre{
+        margin-right: 47%;
+        margin-left: 8rem;
+    }
+
+    section{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sobre h2{
+        font-size: 46px;
+        padding-top: 50px;
+    }
+
+    .sobre p{
+        font-size: 24px;
+    }
+
+    .sobre .btn-sobre{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 1024px){
+    
+    .sobre{
+        margin-right: 45%;
+        margin-left: 2rem;
+    }
+
+    .sobre h2{
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    
+
+    .sobre p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .sobre .btn-sobre{
+        color: white;
+        font-size: 22px;
+        font-weight: 800px;
+        border-radius: 30px;
+        border: none;
+        padding: 2px 50px;
+        margin-top: 50px;
+       
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .carousel-pc{
+        display: none;
+    }
+
+    .carousel-mobile{
+        display: block;
+    }
+
+    section{
+        display: block;
+        align-items: center;
+    }
+
+    .sobre{
+        margin-right: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: block;
+    }
+
+    .sobre h2{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sobre p{
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+       
+    }
+
+    .btn-sobre{
+        font-size: 32px;
+        font-weight: 800px;
+        border-radius: 30px;
+        border: none;
+        margin-top: 30px;
+        text-align: center;
+        padding: 2px 50px;
+    }
+
+    section button{
+        align-items: center;
+    }
+
 }
