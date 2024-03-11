@@ -43,7 +43,7 @@ i{
     bottom: 10px;
 }
 
-.img >img{
+.img a >img{
     width: 200px;
 }
 
@@ -105,7 +105,7 @@ i{
         text-align: center;
     }
 
-    .img-mobile >img{
+    .img-mobile a >img{
         width: 250px;
         align-content: center;
         margin-top: 30px;

@@ -6,11 +6,11 @@
 <header>
         <nav class="nav-bar">
             <div class="logo">
-              <img src="assets/img/logo_header.png" alt="logo">
+                <a href="index.php"><img src="assets/img/logo_header.png" alt="logo"></a>
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">QUEM SOMOS</a></li>
+                    <li class="nav-item"><a href="quem-somos.php" class="nav-link">QUEM SOMOS</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">RESIDENCIAIS</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">CONTATOS</a></li>
                 </ul>
@@ -30,7 +30,7 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">QUEM SOMOS</a></li>
+                <li class="nav-item"><a href="quem-somos.php" class="nav-link">QUEM SOMOS</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">RESIDENCIAIS</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">CONTATOS</a></li>
             </ul>

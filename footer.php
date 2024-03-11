@@ -25,7 +25,7 @@
             <i class="fa-brands fa-whatsapp"></i>
         </div>
         <div class="img">
-            <img src="assets/img/logo-footer.png" alt="logo">
+            <a href="index.php"><img src="assets/img/logo-footer.png" alt="logo"></a>
         </div>
     </div>
     
@@ -44,7 +44,7 @@
             <i class="fa-brands fa-whatsapp"></i>
         </div>
         <p class="img-mobile">
-            <img src="assets/img/logo-footer.png" alt="logo">
+            <a href="index.php"><img src="assets/img/logo-footer.png" alt="logo"></a>
         </p>
     </div>
 </footer>
