@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sobre{
+    margin-right: 50%;
+    margin-left: 8rem;
+    padding-bottom: 50px;
+}
+
+.sobre h2{
+    font-size: 50px;
+    font-weight: 700px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+
+.sobre h3{
+    font-weight: bold;
+    color:rgb(68, 68, 68);
+}
+
+.sobre p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);;
+}
+
+
+@media(max-width: 1440px){
+
+    .sobre{
+        margin-right: 40%;
+        margin-left: 8rem;
+    }
+
+    section{
+        background-size: auto;
+        margin-bottom: -20px;
+    }
+
+    .sobre h2{
+        font-weight: 700;
+        font-size: 42px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .sobre h3{
+        padding-top: 0px;
+    }
+
+    .sobre p{
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+}
+
+@media(max-width: 1024px){
+
+    section{
+        background-size: cover;
+        display: block;
+        text-align: center;
+    }
+    
+    .sobre{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .sobre h2{
+        font-size: 52px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    
+
+    .sobre p{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .sobre h3{
+        font-size: 48px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    section{
+        background-position: center;
+        display: block;
+        align-items: center;
+    }
+
+    .sobre{
+        margin-right: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: block;
+    }
+
+    .sobre h2{
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .sobre p{
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 50px;
+       
+    }
+
+}

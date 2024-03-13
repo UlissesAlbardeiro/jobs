@@ -11,7 +11,7 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="quem-somos.php" class="nav-link">QUEM SOMOS</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">RESIDENCIAIS</a></li>
+                    <li class="nav-item"><a href="residenciais.php" class="nav-link">RESIDENCIAIS</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">CONTATOS</a></li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@
         <div class="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="quem-somos.php" class="nav-link">QUEM SOMOS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">RESIDENCIAIS</a></li>
+                <li class="nav-item"><a href="residenciais.php" class="nav-link">RESIDENCIAIS</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">CONTATOS</a></li>
             </ul>
 

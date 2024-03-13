@@ -4,10 +4,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.carousel-mobile{
-    display: none;
-}
-
 section{
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,6 +12,7 @@ section{
 .sobre{
     margin-right: 50%;
     margin-left: 8rem;
+    padding-bottom: 50px;
 }
 
 .sobre h2{
@@ -32,37 +29,19 @@ section{
     color: rgb(68, 68, 68);;
 }
 
-.sobre .btn-sobre{
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
+.line-horizontal{
     background-color: #183153;
-    border-radius: 40px;
-    border: none;
-    padding: 6px 90px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    cursor: pointer;  
+    height: 8px;
+    width: 500px;
+    margin-bottom: 20px;
 }
 
-article{
-    margin: 0;
-    padding: 0;
-}
-
-.cards{
-    margin-top: -20px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-
-}
-
-.cards a img{
-    margin: 0;
-    padding: 0;
+.img-sobre img{
     max-width: 100%;
-    
+}
+
+.sobre-mobile{
+    display: none;
 }
 
 @media(max-width: 1440px){
@@ -78,24 +57,19 @@ article{
     }
 
     .sobre h2{
-        font-size: 46px;
-        padding-top: 50px;
+        font-size: 36px;
+        padding-top: 120px;
     }
 
     .sobre p{
-        font-size: 24px;
+        font-size: 18px;
+        padding-bottom: 120px;
     }
 
-    .sobre .btn-sobre{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-
-    .cards a img{
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        
+    .line-horizontal{
+        height: 5px;
+        width: 400px;
+        margin-bottom: 20px;
     }
 }
 
@@ -118,28 +92,9 @@ article{
         font-weight: 500;
     }
 
-    .sobre .btn-sobre{
-        color: white;
-        font-size: 32px;
-        font-weight: 800px;
-        border-radius: 30px;
-        border: none;
-        padding: 2px 50px;
-        margin-top: 30px;
-       
-    }
-
 }
 
 @media(max-width: 768px){
-
-    .carousel-pc{
-        display: none;
-    }
-
-    .carousel-mobile{
-        display: block;
-    }
 
     section{
         display: block;
@@ -158,35 +113,57 @@ article{
         font-weight: 700;
         margin-bottom: 20px;
         text-align: center;
+        padding-top: 50px;
     }
 
     .sobre p{
+        margin-top: 40px;
         font-size: 22px;
         font-weight: 500;
         text-align: center;
+        padding-bottom: 50px;
        
     }
 
-    .btn-sobre{
-        font-size: 32px;
-        font-weight: 800px;
-        border-radius: 30px;
-        border: none;
-        margin-top: 30px;
-        text-align: center;
-        padding: 2px 50px;
+    .line-horizontal{
+        background-color: #183153;
+        height: 8px;
+        width: 300px;
+        display: flex;
+        margin: auto;
     }
 
-    section button{
-        align-items: center;
+    .img-sobre{
+        display: none;
     }
 
-    .cards{
-   
+    .sobre-mobile{
         display: block;
-        flex-wrap: wrap;
-       
+        margin: auto;
+        background-color: #0d3c70;
+    }
     
+    .sobre-mobile .cards-sobre{
+        display: block;
+        background-color: #0d3c70;
+        margin: auto;
+    }
+
+    .sobre-mobile img{
+        display: block;
+        margin: auto;
+        max-width: 80%;
+        padding-top: 50px;
+    }
+
+    .cards-sobre >p{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .card-last{
+        padding-bottom: 50px;
     }
 
 }

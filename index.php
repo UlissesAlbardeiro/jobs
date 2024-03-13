@@ -64,17 +64,34 @@
     </div>
 
    
-    <section>
+    <section style="background-image: url(assets/img/sobre-nos.png)">
         <div class="sobre">
             <h2>Quem somos</h2>
             <p>A Engeteg construtora é uma empresa que atua no ramo da construção civil, oferecendo soluções completas e integradas para os seus clientes.<br>A contrutora também se preocupa com o meio ambiente e a responsabilidade social, adotando práticas sistentáveis e apoiando projetos sociais nas comunidades onde atua. A Engeteg construtora é uma empresa que constrói mais do que obras, constrói sonhos</p>
             <p>
-               <button href="#" class="btn-sobre">SAIBA MAIS</button>
+               <a href="q-somos.php"><button class="btn-sobre">SAIBA MAIS</button></a>
             </p>
         </div>
     </section>
 
-    <?php include_once("footer.php") ?>
+    <article class="cards">
+        
+        <div class="card-img">
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUlZrH0-2EAxUWqpUCHfhoC7AQFnoECAcQAQ&url=https%3A%2F%2Fwww.caixa.gov.br%2Fvoce%2Fhabitacao%2Fminha-casa-minha-vida%2FPaginas%2Fdefault.aspx&usg=AOvVaw3Lu6cNuWKx-8-avrtV4hzb&opi=89978449"><img src="assets/img/1.png" alt=""></a>
+        </div>
+        <div class="card-img">
+            <a href="residenciais.php"><img src="assets/img/2.png" alt=""></a>
+        </div>
+        <div class="card-img">
+            <a href="http://"><img src="assets/img/3.png" alt=""></a>
+        </div>
+        <div class="card-img">
+            <a href="http://"><img src="assets/img/4.png" alt=""></a>
+        </div>
+        
+</article>
+
+<?php include_once("footer.php") ?>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
