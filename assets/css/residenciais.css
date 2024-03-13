@@ -2,6 +2,24 @@
 
 *{
     font-family: "Montserrat", sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+
+main{
+    margin: 50px 8rem;
+    padding-bottom: 100px;
+    display: block;
+}
+
+.residenciais{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main img{
+    width: 500px;
+    margin-bottom: 50px;
 }
 
 article{
@@ -24,6 +42,10 @@ article{
     
 }
 
+.residenciais-mobile{
+    display: none;
+}
+
 @media(max-width: 1440px){
 
     .cards a img{
@@ -36,10 +58,26 @@ article{
 
 @media(max-width: 768px){
 
+    .residenciais-mobile{
+        display: block;    
+        padding-bottom: 100px;    
+    }
+
+    .residenciais-mobile img{
+        max-width: 100%;
+    }
+
+    .main{
+        display: none;
+    }
+
     .cards{
    
         display: block;
         flex-wrap: wrap;
+       
+    
     }
+
 
 }
