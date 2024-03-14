@@ -22,17 +22,17 @@
     </section>
 
     <article class="text">
-        <div>
+        <div class="bloco1">
             <h2>Minha Casa, Minha Vida</h2>
             <div class="line-horizontal"></div>
             <p>O programa Minha Casa, Minha Vida, lnçado pelo Governo Federal, tem como objetivo aprimorar os programas de financiamentos habitacionais que já existem. A intenção é diversificar as opções ofertadas e diminuir as taxas de juros, tornando-as mais atrativos ao consumidor. <br>
         
             além disso, busca estimular a modernização e a inovação tecnológica do setor da construção civil e promover o desenvolvimento institucional e a capacitação dos agentes púlblicos e privados. A Engeteg esclarece as principais dúvidas!</p>
         </div>
-        <div>
+        <div class="bloco2">
             <p>Para realizar o sonho de obter a casa própria, cada vez mais famílias tem optado pelo financiamento. Em parceria com a Caixa Econômica Federal, o Minha Casa, Minha Vida é um exemplo de programa do governo que oferece condições atrativas para o financiamento de moradias. Aproveite essa oportunidade e adquira seu novo lar com a Engeteg!</p>
             <p>
-               <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUlZrH0-2EAxUWqpUCHfhoC7AQFnoECAcQAQ&url=https%3A%2F%2Fwww.caixa.gov.br%2Fvoce%2Fhabitacao%2Fminha-casa-minha-vida%2FPaginas%2Fdefault.aspx&usg=AOvVaw3Lu6cNuWKx-8-avrtV4hzb&opi=89978449"><button class="btn-sobre">SAIBA MAIS</button></a>
+               <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUlZrH0-2EAxUWqpUCHfhoC7AQFnoECAcQAQ&url=https%3A%2F%2Fwww.caixa.gov.br%2Fvoce%2Fhabitacao%2Fminha-casa-minha-vida%2FPaginas%2Fdefault.aspx&usg=AOvVaw3Lu6cNuWKx-8-avrtV4hzb&opi=89978449"><button class="btn-sobre">ACESSE A PÁGINA OFICIAL</button></a>
             </p>
         </div>
 

@@ -12,8 +12,8 @@
     <div class="footer">
         <div class="contacts">
             <h3>Contatos</h3>
-            <p>(19) 99936-4154</p>
-            <p>E-mail: contato@engeteg.com.br</p>
+            <a href="tel:+5519999364154"><p>(19) 99936-4154</p></a>
+            <a href="mailto:contato@engeteg.com.br"><p>E-mail: contato@engeteg.com.br</p></a>
         </div>
         <div>
             <div class="line"></div>
@@ -34,14 +34,15 @@
     <div class="footer-mobile">
         <div class="contacts">
             <h3>Contatos</h3>
-            <p>(19) 99936-4154</p>
-            <p>E-mail: contato@engeteg.com.br</p>
-        </div>
+            <a href="tel:+5519999364154"><p>(19) 99936-4154</p></a>
+            <a href="mailto:contato@engeteg.com.br"><p>E-mail: contato@engeteg.com.br</p></a>
+            
+</div>
         <div class="social">
             <h3>Redes Sociais</h3>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://www.facebook.com/profile.php?id=61555768884455&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/engetegconstrucao/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5519999364154"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
         <p class="img-mobile">
             <a href="index.php"><img src="assets/img/logo-footer.png" alt="logo"></a>

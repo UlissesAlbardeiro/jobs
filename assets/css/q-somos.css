@@ -127,3 +127,23 @@ section{
     }
 
 }
+
+@media(max-width: 375px){
+
+
+    .sobre h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .sobre h3{
+        font-size: 32px;
+    }
+
+    .sobre .btn-sobre{
+        font-size: 320px;
+    }
+
+
+
+}

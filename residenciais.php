@@ -15,25 +15,27 @@
 
     <main class="main">
         <div class="residenciais">
-            <a href="#">
+            <a href="residencial-ipes.php">
             <img src="assets/img/residencial1.png" alt="">
            </a>
         
-           <a href="">
+           <a href="residencial-california.php">
             <img src="assets/img/residencial2.png" alt="">
            </a>
         </div>
            
     </main>
 
+    <!-- RESIDENCIAIS MOBILE -->
+
     <div class="residenciais-mobile">
-        <div class="residencial-mobile">
-            <a href="http://">
+        <div class="residencial-mobile residencial">
+            <a href="residencial-ipes.php">
                 <img src="assets/img/cards-residenciais1.png" alt="">
             </a>
         </div>
         <div class="residencial">
-            <a href="http://">
+            <a href="residencial-california.php">
                 <img src="assets/img/cards-residenciais2.png" alt="">
             </a>
         </div>
@@ -48,10 +50,10 @@
             <a href="residenciais.php"><img src="assets/img/2.png" alt=""></a>
         </div>
         <div class="card-img">
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUlZrH0-2EAxUWqpUCHfhoC7AQFnoECAcQAQ&url=https%3A%2F%2Fwww.caixa.gov.br%2Fvoce%2Fhabitacao%2Fminha-casa-minha-vida%2FPaginas%2Fdefault.aspx&usg=AOvVaw3Lu6cNuWKx-8-avrtV4hzb&opi=89978449"><img src="assets/img/3.png" alt=""></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSergaDSFwkaFWTZaTFAS1UqVuM_bzJGGsyI9_DLcg6v0KoAxQ/viewform?pli=1"><img src="assets/img/3.png" alt=""></a>
         </div>
         <div class="card-img">
-            <a href="http://"><img src="assets/img/4.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=5519999364154"><img src="assets/img/4.png" alt=""></a>
         </div>
         
     </article>

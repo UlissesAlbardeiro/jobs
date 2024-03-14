@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+section{
+    background-size:100%;
+    background-repeat: no-repeat;
+   
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sobre{
+    margin-right: 55%;
+    margin-left: 8rem;
+}
+
+.sobre h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: rgb(68, 68, 68);
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.sobre h3{
+    font-size: 36px;
+    font-weight: 600px;
+    color: #183153;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobre .contatos{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sobre p{
+    margin: 0;
+    padding: 0;
+}
+
+.line-horizontal{
+    background-color: #183153;
+    height: 8px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.sobre p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+}
+
+.sobre .social i{
+    color: #183153;
+    font-size: 60px;
+}
+
+@media(max-width: 1440px){
+
+
+section{
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+    .sobre{
+        margin-right: 45%;
+        margin-left: 8rem;
+    }
+
+    section{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sobre h2{
+        font-size: 54px;
+        padding-top: 50px;
+    }
+
+    .line-horizontal{
+        height: 5px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .sobre p{
+        font-size: 20px;
+    }
+
+
+.sobre .contatos{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+    .sobre .social i{
+        padding-bottom: 50px;
+        font-size: 46px;
+    }
+    
+}
+
+@media(max-width: 1024px){
+
+    section{
+        background-size:100%;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        margin-bottom: -130px;
+    }
+    
+    .sobre{
+        margin-right: 40%;
+        margin-left: 2rem;
+    }
+
+    .sobre h2{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .sobre h3{
+        font-size: 26px;
+    }
+    
+
+    .sobre p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .sobre .social i{
+        font-size: 42px;
+        padding-bottom: 50px;
+    }
+
+
+}
+
+@media(max-width: 768px){
+
+    section{
+        background-size: auto;
+        display: block;
+        align-items: center;
+    }
+
+    .sobre{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .sobre h2{
+        font-size: 60px;
+        font-weight: 700;
+       
+        text-align: center;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .line-horizontal{
+        background-color: #183153;
+        height: 8px;
+        width: 300px;
+        display: flex;
+        margin: auto;
+    }
+
+    .sobre p{
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+       
+    }
+
+    .sobre .contatos{
+        font-size: 27px;
+    }
+    
+    .sobre .social i{
+        text-align: center;
+        color: #183153;
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+
+
+}
+
+@media(max-width: 375px){
+
+
+    .sobre h2{
+        font-size: 42px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .sobre h3{
+        font-size: 32px;
+        font-weight: 600px;
+        color: #183153;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .line-horizontal{
+        background-color: #183153;
+        height: 8px;
+        width: 300px;
+        display: flex;
+        margin: auto;
+    }
+
+    .sobre p{
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+       
+    }
+
+    .sobre .contatos{
+        font-size: 27px;
+    }
+    
+    .sobre .social i{
+        text-align: center;
+        color: #183153;
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+
+    .sobre .contatos{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+}
+
+@media(max-width: 375px){
+
+    .line-horizontal{
+        background-color: #183153;
+        height: 8px;
+        width: 250px;
+        display: flex;
+        margin: auto;
+    }
+
+    .sobre p{
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 10px;
+       
+    }
+
+    .sobre .contatos{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}

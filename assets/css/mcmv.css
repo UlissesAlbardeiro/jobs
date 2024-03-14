@@ -8,15 +8,17 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: -20px;
+    padding-top: 100px;
+    padding-bottom: 180px;
 }
 
 .sobre{
-    margin-right: 50%;
+    margin-right: 65%;
     margin-left: 8rem;
 }
 
 .sobre h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: rgb(68, 68, 68);
     margin-bottom: 40px;
@@ -31,7 +33,7 @@ section{
 }
 
 .sobre p{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
     color: rgb(68, 68, 68);
 }
@@ -43,26 +45,35 @@ section{
     background-color: #183153;
     border-radius: 40px;
     border: none;
-    padding: 6px 90px;
+    padding: 6px 60px;
     margin-top: 50px;
     margin-bottom: 50px;
     cursor: pointer;  
 }
 
-te
+.text{
+    display: flex;
+    margin: 100px 8rem;
+}
 
 .text h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: rgb(68, 68, 68);
-    margin-bottom: 40px;
-    padding-top: 80px;
 }
 
 .text p{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
     color: rgb(68, 68, 68);;
+}
+
+.bloco{
+    margin-right: 20px;
+}
+
+.bloco2{
+    padding-left: 80px;
 }
 
 .text .btn-sobre{
@@ -72,7 +83,7 @@ te
     background-color: #183153;
     border-radius: 40px;
     border: none;
-    padding: 6px 90px;
+    padding: 6px 40px;
     margin-top: 50px;
     margin-bottom: 50px;
     cursor: pointer;  
@@ -80,8 +91,17 @@ te
 
 @media(max-width: 1440px){
 
+
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
     .sobre{
-        margin-right: 49%;
+        margin-right: 55%;
         margin-left: 8rem;
     }
 
@@ -106,6 +126,11 @@ te
     }
 
     .sobre .btn-sobre{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .text .btn-sobre{
         font-size: 20px;
         margin-bottom: 50px;
     }
@@ -141,6 +166,17 @@ te
        
     }
 
+    .text .btn-sobre{
+        color: white;
+        font-size: 22px;
+        font-weight: 800px;
+        border-radius: 30px;
+        border: none;
+        padding: 2px 40px;
+        margin-top: 30px;
+       
+    }
+
 }
 
 @media(max-width: 768px){
@@ -151,7 +187,6 @@ te
     }
 
     .sobre{
-        margin-right: 100%;
         margin-left: 2rem;
         margin-right: 2rem;
         display: block;
@@ -194,5 +229,59 @@ te
         align-items: center;
     }
 
+    .text{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .bloco{
+        margin-right: 0px;
+    }
+    
+    .bloco2{
+        padding-left: 0px;
+    }
+
+    .text h2{
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(68, 68, 68);
+    }
+
+    .text p{
+        margin-top: 50px;
+        font-size: 22px;
+        font-weight: 500;
+        color: rgb(68, 68, 68);;
+    }
+
+    .bloco{
+        margin-right: auto;
+    }
+
+    .bloco2{
+        padding-left: auto;
+    }
+
+    .text .btn-sobre{
+        font-size: 28px;
+        font-weight: 800px;
+        border-radius: 30px;
+        border: none;
+        padding: 2px 40px;
+        margin-top: 30px;
+       
+    }
+}
+
+@media(max-width: 425px){
+
+    .text .btn-sobre{
+        font-size: 20px;
+    }
 
 }

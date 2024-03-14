@@ -38,6 +38,10 @@ header {
     list-style: none;
 }
 
+.nav-list ul a:hover, .active {
+    color: white;
+}
+
 .nav-item {
     margin: 0 15px;
 }

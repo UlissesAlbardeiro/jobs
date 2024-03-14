@@ -133,6 +133,47 @@ article{
 
 @media(max-width: 768px){
 
+    section{
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .sobre{
+        margin-right: 50%;
+        margin-left: 2rem;
+    }
+
+    .sobre h2{
+        font-size: 28px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .sobre p{
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .sobre .btn-sobre{
+        font-size: 32px;
+        font-weight: 700px; 
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width: 425px){
+
+    section{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .carousel-pc{
         display: none;
     }
@@ -167,7 +208,7 @@ article{
        
     }
 
-    .btn-sobre{
+   .btn-sobre{
         font-size: 32px;
         font-weight: 800px;
         border-radius: 30px;
@@ -182,8 +223,7 @@ article{
     }
 
     .cards{
-   
-        display: block;
+         display: block;
         flex-wrap: wrap;
        
     

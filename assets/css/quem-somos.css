@@ -74,6 +74,11 @@ section{
 }
 
 @media(max-width: 1024px){
+
+    section{
+        background-size: 100%;
+        margin-bottom: -170px;
+    }
     
     .sobre{
         margin-right: 45%;
@@ -97,8 +102,10 @@ section{
 @media(max-width: 768px){
 
     section{
+        background-size: 250%;
         display: block;
         align-items: center;
+        margin-bottom: 0px;
     }
 
     .sobre{
@@ -133,6 +140,39 @@ section{
         margin: auto;
     }
 
+    .sobre-mobile{
+        display: none;
+        margin: auto;
+        background-color: #0d3c70;
+    }
+    
+    .sobre-mobile .cards-sobre{
+        display: block;
+        background-color: #0d3c70;
+        margin: auto;
+    }
+
+    .sobre-mobile img{
+        display: block;
+        margin: auto;
+        max-width: 60%;
+        padding-top: 50px;
+    }
+
+    .cards-sobre >p{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .card-last{
+        padding-bottom: 50px;
+    }
+
+}
+
+@media(max-width: 425px){
+
     .img-sobre{
         display: none;
     }
@@ -149,11 +189,8 @@ section{
         margin: auto;
     }
 
-    .sobre-mobile img{
-        display: block;
-        margin: auto;
-        max-width: 80%;
-        padding-top: 50px;
+   .sobre-mobile img{
+        max-width: 50%;
     }
 
     .cards-sobre >p{

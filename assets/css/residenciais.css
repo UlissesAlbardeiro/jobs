@@ -56,28 +56,62 @@ article{
     }
 }
 
-@media(max-width: 768px){
-
-    .residenciais-mobile{
-        display: block;    
-        padding-bottom: 100px;    
-    }
-
-    .residenciais-mobile img{
-        max-width: 100%;
-    }
+@media(max-width: 1024px){
 
     .main{
         display: none;
     }
-
-    .cards{
-   
-        display: block;
+    .residenciais-mobile{
+        display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
-       
-    
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
 
+    .residencial img{
+        width: 400px;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+   
+    .main{
+        display: block;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .residenciais-mobile{
+        display: none;
+    }
+}
+
+@media(max-width: 425px){
+    
+    .main{
+        display: none;
+    }
+
+    .residenciais-mobile{
+        display: block; 
+        margin: auto;   
+           
+    }
+
+    .residenciais-mobile img{
+        width: 400px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
