@@ -8,7 +8,9 @@
 <body>
     <?php include_once("header.php");?>
 
-RESIDENCIAL CALIFORNIA
+    <article class="text">
+        <div class="container"></div>
+    </article>
 
     <?php include_once("footer.php");?>
 </body>

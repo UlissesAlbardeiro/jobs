@@ -4,10 +4,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.carousel-mobile{
-    display: none;
-}
-
 section{
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,14 +168,6 @@ article{
     section{
         background-size: cover;
         background-repeat: no-repeat;
-    }
-
-    .carousel-pc{
-        display: none;
-    }
-
-    .carousel-mobile{
-        display: block;
     }
 
     section{
