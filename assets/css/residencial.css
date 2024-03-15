@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    display: flex;
+    margin: 50px 8rem;
+    border-bottom: solid 1px rgb(68, 68, 68);
+    padding-bottom: 100px;
+}
+
+.block1 .p{
+    font-size: 18px;
+    font-weight: 700px;
+    color: rgb(68, 68, 68);
+    margin-right: 120px;
+}
+
+.block1 h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #183153;
+}
+
+.block1 h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.line-horizontal{
+    background-color: #183153;
+    height: 8px;
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+.block2 .p2{
+    font-size: 18px;
+    font-weight: 700px;
+    color: rgb(68, 68, 68);
+    margin-top: 110px;
+}
+
+.img-planta{
+    display: flex;
+    margin: 50px 8rem;
+    justify-content: space-between;
+}
+
+.img-logo{
+    margin: auto;
+}
+
+.img-logo > img{
+    margin: auto;
+    width: 350px;
+}
+
+.img-logo h4{
+    font-size: 24px;
+    font-weight: 900px;
+    color: rgb(68, 68, 68);
+    padding-top: 20px;
+}
+
+.img-logo >p{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.planta >img{
+    width: 550px;
+}
