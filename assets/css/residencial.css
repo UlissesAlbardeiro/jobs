@@ -13,7 +13,6 @@ body{
     display: flex;
     margin: 50px 8rem;
     border-bottom: solid 1px rgb(68, 68, 68);
-    padding-bottom: 100px;
 }
 
 .block1 .p{
@@ -48,6 +47,23 @@ body{
     margin-top: 110px;
 }
 
+.location{
+    display: flex;
+}
+
+.location i{
+    color: #183153;
+    font-size: 30px;
+}
+
+.location >p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #183153;
+    padding-top: 23px;
+
+}
+
 .img-planta{
     display: flex;
     margin: 50px 8rem;
@@ -78,4 +94,133 @@ body{
 
 .planta >img{
     width: 550px;
+}
+
+@media(max-width: 1024px){
+    
+    .description{
+        display: flex;
+        margin: 50px 2rem;
+        border-bottom: solid 1px rgb(68, 68, 68);
+    }
+    
+    .img-planta{
+        display: flex;
+        margin: 50px 2rem;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 768px){
+    
+    .description{
+        display: flex;
+        margin: 50px 2rem;
+        border-bottom: solid 1px rgb(68, 68, 68);
+    }
+    
+    .img-planta{
+        display: flex;
+        margin: 50px 2rem;
+        justify-content: space-between;
+    }
+
+    .img-logo{
+        margin: auto;
+    }
+    
+    .img-logo > img{
+        margin: auto;
+        width: 250px;
+    }
+    
+    .img-logo h4{
+        font-size: 24px;
+        font-weight: 900px;
+        color: rgb(68, 68, 68);
+        padding-top: 20px;
+    }
+    
+    .img-logo >p{
+        font-size: 20px;
+        color: rgb(68, 68, 68);
+        text-align: center;
+    }
+
+    .img-logo >h4{
+        text-align: center;
+    }
+    
+    .planta >img{
+        width: 450px;
+    }
+    
+}
+
+@media(max-width: 425px){
+    
+    .description{
+        display: block;
+        margin: 50px 2rem;
+    }
+    
+    .block1 .p{
+        font-size: 18px;
+        font-weight: 700px;
+        color: rgb(68, 68, 68);
+        margin-right: 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .block1 h2{
+        text-align: center;
+    }
+    
+    .block1 h1{
+        text-align: center;
+    }
+    
+    .line-horizontal{
+        width: 300px;
+        margin: auto;
+    }
+    
+    .block2 .p2{
+        margin-top: 10px;
+    }
+    
+    .location >p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #183153;
+        padding-top: 23px;
+    
+    }
+    
+    .img-planta{
+        display: block;
+        margin: 50px 2rem;
+        justify-content: center;
+    }
+    
+    .img-logo{
+        margin: auto;
+    }
+    
+    .img-logo > img{
+        margin: auto;
+        width: 350px;
+    }
+    
+    .img-logo >p{
+        font-size: 20px;
+        color: rgb(68, 68, 68);
+        text-align: center;
+    }
+    
+    .planta >img{
+        width: 350px;
+    }
+    
 }

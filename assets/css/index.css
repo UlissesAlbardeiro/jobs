@@ -83,7 +83,7 @@ article{
     }
 
     .sobre .btn-sobre{
-        font-size: 20px;
+        font-size: 26px;
         margin-bottom: 50px;
     }
 
@@ -196,8 +196,8 @@ article{
        
     }
 
-   .btn-sobre{
-        font-size: 32px;
+   .sobre .btn-sobre{
+        font-size: 26px;
         font-weight: 800px;
         border-radius: 30px;
         border: none;

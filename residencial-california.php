@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="assets/css/residencial.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
 <body>
     <?php include_once("header.php");?>
@@ -28,11 +30,12 @@
         
             Aproveite e veja as condições especiais que fizemos para você mudar de vida! Tem desconto, tem benefício do Minha Casa Minha Vida da Caiixa Econômica Federal.<br>
             A Paz que você busca está aqui! Chega de pagar aluguel e invista no seu sonho. Comprar sua casa nova pode ser mais fácil do que você pensa!</p>
-        </div>
-        <div class="location">
-            <i class="fa-light fa-location-dot"></i>
+            <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
             <p>Santa Ernestina</p>
         </div>
+        </div>
+        
     </div>
 
     <div class="img-planta">
@@ -50,6 +53,8 @@
         </div>
         
     </div>
+
+    <?php include_once("carousel-imoveis.php");?>
 
     <?php include_once("footer.php");?>
 </body>
